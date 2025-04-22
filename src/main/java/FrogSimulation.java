@@ -15,7 +15,7 @@ public class FrogSimulation
 	
 	public boolean simulate()
 	{ 
-		private int b = 0; 
+		int b = 0; // is private the problem? if this msg is still here then yes
 		for(int i = 0; i < maxHops; i++){
 			b += hopDistance();
 			if(b < 0){
@@ -31,7 +31,7 @@ public class FrogSimulation
 	
 	public double runSimulations(int num)
 	{ 
-		private int a = 0;
+		int a = 0; // is private the problem? if this msg is still here then yes
 		for(int i = 0; i < num; i++){
 			if(simulate()){
 				a++;
